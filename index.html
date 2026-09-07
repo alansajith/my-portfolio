@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Alex Morgan — a product-minded developer crafting thoughtful digital experiences." />
+    <title>Alex Morgan — Digital maker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Alex Morgan home">
+        <span class="brand-mark">AS</span>
+        <span class="brand-name">Alan Sajith<span class="brand-dot">.</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#now">Now</a>
+        <a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+      <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation">
+        <a href="#about">About <span>01</span></a>
+        <a href="#work">Work <span>02</span></a>
+        <a href="#now">Now <span>03</span></a>
+        <a href="#contact">Let's talk <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-pad">
+        <div class="hero-kicker reveal"><span class="status-dot"></span> Available for interesting problems</div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Hello, I'm Alan, a developer in the making.</p>
+          <h1>I turn curious<br /><em>ideas</em> into <span class="outline-text">useful</span> things<span class="accent-dot">.</span></h1>
+          <p class="hero-intro">I’m building a foundation in code, design, and product thinking, one thoughtful experiment at a time.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span>↓</span></a>
+            <a class="text-link" href="#about">More about me <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-visual reveal reveal-delay-2" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="hero-cross cross-one">+</div>
+          <div class="hero-cross cross-two">+</div>
+          <div class="hero-card">
+            <span class="hero-card-label">Currently</span>
+            <strong>Learning by<br />building.</strong>
+            <span class="hero-card-index">/ 001</span>
+          </div>
+          <div class="hero-spark">✦</div>
+        </div>
+        <a class="scroll-cue" href="#about"><span>Scroll to explore</span><i>↓</i></a>
+      </section>
+
+      <section class="marquee" aria-label="Areas of interest">
+        <div class="marquee-track">
+          <span>FRONT-END DEVELOPMENT</span><i>✳</i><span>PRODUCT THINKING</span><i>✳</i><span>INTERACTION DESIGN</span><i>✳</i><span>FRONT-END DEVELOPMENT</span><i>✳</i><span>PRODUCT THINKING</span><i>✳</i><span>INTERACTION DESIGN</span><i>✳</i>
+        </div>
+      </section>
+
+      <section class="about section-pad" id="about">
+        <div class="section-heading reveal">
+          <span class="section-number">01 — About</span>
+          <h2>A little context<br /><span>goes a long way.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-statement reveal">
+            <p class="big-copy">I’m at the beginning of a very exciting chapter: learning how to make things that feel clear, useful, and a little unexpected.</p>
+            <p class="body-copy">This space is a living record of that journey. I’m interested in the details that make digital experiences feel human — the tiny transitions, the helpful empty states, the idea that turns into something real.</p>
+            <a class="text-link" href="#contact">Have a good idea? <span>↗</span></a>
+          </div>
+          <div class="about-notes reveal reveal-delay-1">
+            <div class="note-card note-card-lime"><span>01</span><p>Stay curious.<br /><strong>Always.</strong></p></div>
+            <div class="note-card note-card-blue"><span>02</span><p>Make it useful.<br /><strong>Make it yours.</strong></p></div>
+            <div class="note-card note-card-pink"><span>03</span><p>Keep moving.<br /><strong>Keep learning.</strong></p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section-pad" id="work">
+        <div class="section-heading work-heading reveal">
+          <span class="section-number">02 — Selected work</span>
+          <h2>The workbench<br /><span>is warming up.</span></h2>
+          <p class="section-aside">No shipped projects yet.<br />That’s about to change.</p>
+        </div>
+        <div class="work-grid">
+          <article class="project-card project-featured reveal">
+            <div class="project-visual visual-aurora">
+              <span class="project-shape shape-a"></span><span class="project-shape shape-b"></span><span class="project-shape shape-c"></span>
+              <span class="visual-label">Coming soon</span>
+              <span class="visual-mark">01</span>
+            </div>
+            <div class="project-meta"><span>01 / In progress</span><span>Concept → build</span></div>
+            <h3>Your first project<br /><em>could live here.</em></h3>
+            <p>A flexible space for the app, website, or experiment you’re about to make.</p>
+            <div class="project-tags"><span>Product</span><span>Interface</span><span>Case study</span></div>
+          </article>
+          <article class="project-card project-secondary reveal reveal-delay-1">
+            <div class="project-visual visual-grid"><div class="grid-object">+</div><span class="visual-label">Your next idea</span></div>
+            <div class="project-meta"><span>02 / Reserved</span><span>Open canvas</span></div>
+            <h3>Make room for<br /><em>the unexpected.</em></h3>
+            <p>New work will land here as the portfolio grows.</p>
+            <div class="project-tags"><span>Prototype</span><span>Experiment</span></div>
+          </article>
+        </div>
+        <div class="work-footer reveal"><span class="mono-note">THE STARTING LINE IS A GOOD PLACE TO BE.</span><span class="line"></span><span class="mono-note">02 / 02</span></div>
+      </section>
+
+      <section class="now section-pad" id="now">
+        <div class="section-heading reveal"><span class="section-number">03 — Now</span><h2>Learning in<br /><span>public.</span></h2></div>
+        <div class="now-layout">
+          <div class="now-copy reveal"><p class="big-copy">The next version of this portfolio will have real projects in it. For now, I’m laying the groundwork.</p><a class="button button-secondary" href="#contact">Follow the journey <span>↗</span></a></div>
+          <div class="learning-list reveal reveal-delay-1">
+            <div class="learning-item"><span class="learning-index">01</span><div><h3>Building with HTML, CSS &amp; JavaScript</h3><p>Learning the fundamentals and making them feel good.</p></div><span class="learning-status">In focus</span></div>
+            <div class="learning-item"><span class="learning-index">02</span><div><h3>Exploring product ideas</h3><p>Turning observations into small, useful digital tools.</p></div><span class="learning-status">Next up</span></div>
+            <div class="learning-item"><span class="learning-index">03</span><div><h3>Documenting the process</h3><p>Sharing the messy middle, not just the polished end.</p></div><span class="learning-status">Always</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contact">
+        <div class="contact-panel reveal">
+          <div class="contact-top"><span class="section-number">04 — Contact</span><span class="contact-star">✦</span></div>
+          <h2>Let’s make<br /><em>something</em> real.</h2>
+          <p>Have a project idea, a question, or just want to say hello? My inbox is open.</p>
+          <a class="contact-email" href="mailto:alan.sajith1722@gmail.com">alan.sajith1722@gmail.com<span>↗</span></a>
+          <div class="contact-bottom"><span>Based wherever good ideas happen.</span><div class="social-links"><a href="https://github.com/alansajith" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/alan-sajith-81099a27b/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-pad"><span>© 2026 Alan Sajith</span><span>Designed &amp; built with intention.</span><a href="#top">Back to top ↑</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
